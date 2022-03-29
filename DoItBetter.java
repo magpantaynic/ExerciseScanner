@@ -17,18 +17,20 @@ public class DoItBetter {
       System.out.println("How many miles can you run?");
       milesUser = Integer.parseInt(inputReader.nextLine());
 
+      System.out.println("That's it? Wow. I can run " + ((milesUser*2) + 1) + " miles");
     
       System.out.println("How many hot dogs can you eat?");
       hotDogs = Integer.parseInt(inputReader.nextLine());
 
+      System.out.println("Interesting. I can eat " + ((hotDogs*2) + 1) + " hot dogs");
     
       System.out.println("How many languages can you speak?");
       langUser = Integer.parseInt(inputReader.nextLine());
 
-    // *2 + 1
-    
+      System.out.println("That's cool. I can speak  " + ((langUser*2) + 1) + " languages");
+
+    // *2 + 1   
     
     }
-
   
 }
