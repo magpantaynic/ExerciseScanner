@@ -15,11 +15,15 @@ public class DoItBetter {
       int langUser;
     
       System.out.println("How many miles can you run?");
-      // milesUser = inputReader.nextLine();
+      milesUser = Integer.parseInt(inputReader.nextLine());
+
+    
       System.out.println("How many hot dogs can you eat?");
-      // hotDogs = inputReader.nextLine();
+      hotDogs = Integer.parseInt(inputReader.nextLine());
+
+    
       System.out.println("How many languages can you speak?");
-      // langUser = inputReader.nextLine();
+      langUser = Integer.parseInt(inputReader.nextLine());
 
     // *2 + 1
     
